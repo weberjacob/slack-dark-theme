@@ -1,23 +1,3 @@
-# Slack Dark Theme
-
-A dark theme for Slack based
- https://github.com/widget-/slack-black-theme and https://github.com/elv1n/slack-dark-mojave-theme with color adjustments. 
-
- # Installing into Slack
-
-Find your Slack's application directory.
-
-* Mac: `/Applications/Slack.app/Contents/`
-
-Open up the most recent version (e.g. `app-2.5.1`) then open
-`resources\app.asar.unpacked\src\static\index.js`
-
-For versions after and including `3.0.0` the same code must be added to the following file
-`resources\app.asar.unpacked\src\static\ssb-interop.js`
-
-At the very bottom, add
-
-```js
 // First make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -76,4 +56,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-```
