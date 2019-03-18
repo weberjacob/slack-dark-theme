@@ -1,7 +1,7 @@
 # Slack Dark Theme
 
-A dark theme for Slack based
- https://github.com/widget-/slack-black-theme and https://github.com/elv1n/slack-dark-mojave-theme with color adjustments. 
+A dark theme for Slack based on 
+ https://github.com/widget-/slack-black-theme and https://github.com/elv1n/slack-dark-mojave-theme with color adjustments similar to Tomorrow Theme, specifically Tomorrow Night Eighties. 
 
  # Installing into Slack
 
