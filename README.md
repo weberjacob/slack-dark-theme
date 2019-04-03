@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let webviews = document.querySelectorAll(".TeamView webview");
 
   // Fetch our CSS in parallel ahead of time
-  const cssPath = 'https://unpkg.com/install-dark-theme/theme.css';
+  const cssPath = 'https://raw.githubusercontent.com/weberjacob/slack-dark-theme/master/custom.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
   let customCustomCSS = `
@@ -37,13 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       --background-elevated: #2d2d2d;
       --color-highlight: #2b6b95;
       --background-hover: rgba(255, 255, 255, 0.1);
-      --background-light: #AAA;
-      --background-bright: #FFF;
-      --border-dim: #666;
       --border-bright: #555;
-      --text-bright: #FFF;
-      --text-special: var(--primary);
-      --text-grey: #717274;
       --scrollbar-background: var(--background-elevated);
       --scrollbar-border: var(--background-elevated);
       --active-icon: #2ECC71;
